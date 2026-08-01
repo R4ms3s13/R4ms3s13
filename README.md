@@ -23,6 +23,7 @@ Full-stack / backend-leaning software engineer. I build event-driven and microse
 **Blockchain**
 ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/-Hardhat-FFF100?style=flat-square&logo=ethereum&logoColor=black)
+![Remix IDE](https://img.shields.io/badge/-Remix%20IDE-000000?style=flat-square&logo=ethereum&logoColor=white)
 
 **Databases**
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -59,7 +60,7 @@ Strength training tracker built as an event-driven microservices system. Angular
 | **WeGo** | Mobility app backend — Cloud Functions handling notifications and transactional messaging (SendGrid, Twilio) on top of Firestore/Realtime Database. | `Firebase` `Cloud Functions` `TypeScript` `Firestore` |
 | **Domoblock** | Fintech/tokenized real-estate investment platform. Nx monorepo, Angular frontend, NestJS microservices (auth, KYC, payments, investments, blockchain, notifications) in hexagonal/DDD architecture over RabbitMQ, deployed on Google Cloud Run. | `NestJS` `Angular` `RabbitMQ` `PostgreSQL` `Firebase` `Google Cloud Run` `Docker` |
 | **MitSoftware — Main website** | Headless CMS backend for the company's main website. | `Strapi` `Node.js` `Docker` |
-| **Notrack** | File tracking/security platform split into a NestJS core API and several Fastify microservices (file processing, integrations), all on MongoDB, with JWT auth and WebSocket gateways. | `NestJS` `Fastify` `MongoDB` `WebSockets` `JWT` |
+| **Notrack** | Secure file-tracking platform. Fastify + MongoDB main backend with wallet-based auth verified on-chain against a BSC access-control smart contract (Ethers.js), AWS KMS encryption, and Socket.io real-time events; a NestJS service handles admin/chat/auth, plus separate Fastify microservices for file processing. I built the access-control smart contracts myself with Hardhat and Remix IDE. | `NestJS` `Fastify` `MongoDB` `Solidity` `Hardhat` `Remix IDE` `Ethers.js` `AWS KMS` `Socket.io` |
 | **Defily** | DeFi/staking platform. Solidity contracts refactored into a modular architecture (core, interfaces, proxies, oracles) for auditability, plus a v2 adding NFT membership, ranking and rewards. | `Solidity` `Hardhat` `DeFi` `NFT` |
 | **Axinfy** | DeFi protocol on Polygon — membership, NFT accounts, staking, treasury and liquidity vaults behind UUPS upgradeable proxies, with automated deployment/verification tooling. | `Solidity` `Hardhat` `OpenZeppelin` `Polygon` |
 
