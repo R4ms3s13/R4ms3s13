@@ -37,6 +37,7 @@ Full-stack / backend-leaning software engineer. I build event-driven and microse
 ![Google Cloud](https://img.shields.io/badge/-Google%20Cloud%20Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Cloud Functions](https://img.shields.io/badge/-Cloud%20Functions-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 **Tools**
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
@@ -60,7 +61,7 @@ Strength training tracker built as an event-driven microservices system. Angular
 | **WeGo** | Mobility app backend — Cloud Functions handling notifications and transactional messaging (SendGrid, Twilio) on top of Firestore/Realtime Database. | `Firebase` `Cloud Functions` `TypeScript` `Firestore` |
 | **Domoblock** | Fintech/tokenized real-estate investment platform. Nx monorepo, Angular frontend, NestJS microservices (auth, KYC, payments, investments, blockchain, notifications) in hexagonal/DDD architecture over RabbitMQ, deployed on Google Cloud Run. | `NestJS` `Angular` `RabbitMQ` `PostgreSQL` `Firebase` `Google Cloud Run` `Docker` |
 | **MitSoftware — Main website** | Headless CMS backend for the company's main website. | `Strapi` `Node.js` `Docker` |
-| **Notrack** | Secure file-tracking platform. Fastify + MongoDB main backend with wallet-based auth verified on-chain against a BSC access-control smart contract (Ethers.js), AWS KMS encryption, S3 file storage, OnlyOffice document editing/preview, and Socket.io real-time events; a NestJS service handles admin/chat/auth, plus separate Fastify microservices for file processing. Runs on AWS EC2. I built the access-control smart contracts myself with Hardhat and Remix IDE. | `NestJS` `Fastify` `MongoDB` `Solidity` `Hardhat` `Remix IDE` `Ethers.js` `AWS EC2` `AWS S3` `AWS KMS` `OnlyOffice` `Socket.io` |
+| **Notrack** | Secure file-tracking platform. Fastify + MongoDB main backend with wallet-based auth verified on-chain against a BSC access-control smart contract (Ethers.js), AWS KMS encryption, S3 file storage, OnlyOffice document editing/preview, and Socket.io real-time events; a NestJS service handles admin/chat/auth, plus separate Fastify microservices for file processing. Runs on AWS EC2 behind Nginx. I built the access-control smart contracts myself with Hardhat and Remix IDE. | `NestJS` `Fastify` `MongoDB` `Solidity` `Hardhat` `Remix IDE` `Ethers.js` `AWS EC2` `AWS S3` `AWS KMS` `OnlyOffice` `Nginx` `Socket.io` |
 | **Defily** | DeFi/staking platform. Solidity contracts refactored into a modular architecture (core, interfaces, proxies, oracles) for auditability, plus a v2 adding NFT membership, ranking and rewards. | `Solidity` `Hardhat` `DeFi` `NFT` |
 | **Axinfy** | DeFi protocol on Polygon — membership, NFT accounts, staking, treasury and liquidity vaults behind UUPS upgradeable proxies, with automated deployment/verification tooling. | `Solidity` `Hardhat` `OpenZeppelin` `Polygon` |
 
