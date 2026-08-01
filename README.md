@@ -32,6 +32,7 @@ Full-stack / backend-leaning software engineer. I build event-driven and microse
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 
 **Cloud & DevOps**
 ![AWS](https://img.shields.io/badge/-AWS%20(EC2%20|%20S3%20|%20KMS)-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
