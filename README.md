@@ -57,7 +57,7 @@ Strength training tracker built as an event-driven microservices system. Angular
 | Project | What it is | Stack |
 |---|---|---|
 | **WeGo** | Mobility app backend — Cloud Functions handling notifications and transactional messaging (SendGrid, Twilio) on top of Firestore/Realtime Database. | `Firebase` `Cloud Functions` `TypeScript` `Firestore` |
-| **Domoblock** | Fintech/tokenized real-estate investment platform. Nx monorepo, Angular frontend, NestJS microservices (auth, KYC, payments, investments, blockchain, notifications) in hexagonal/DDD architecture over RabbitMQ, deployed with Docker/Kubernetes/Terraform. | `NestJS` `Angular` `RabbitMQ` `PostgreSQL` `Kubernetes` `Terraform` |
+| **Domoblock** | Fintech/tokenized real-estate investment platform. Nx monorepo, Angular frontend, NestJS microservices (auth, KYC, payments, investments, blockchain, notifications) in hexagonal/DDD architecture over RabbitMQ, deployed on Google Cloud Run. | `NestJS` `Angular` `RabbitMQ` `PostgreSQL` `Firebase` `Google Cloud Run` `Docker` |
 | **MitSoftware — Main website** | Headless CMS backend for the company's main website. | `Strapi` `Node.js` `Docker` |
 | **Notrack** | Real-time tracking backend with JWT auth, WebSocket gateways and transactional email. | `NestJS` `MongoDB` `WebSockets` `JWT` |
 | **Defily** | DeFi/staking platform. Solidity contracts refactored into a modular architecture (core, interfaces, proxies, oracles) for auditability, plus a v2 adding NFT membership, ranking and rewards. | `Solidity` `Hardhat` `DeFi` `NFT` |
