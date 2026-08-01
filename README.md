@@ -59,7 +59,7 @@ Strength training tracker built as an event-driven microservices system. Angular
 | **WeGo** | Mobility app backend — Cloud Functions handling notifications and transactional messaging (SendGrid, Twilio) on top of Firestore/Realtime Database. | `Firebase` `Cloud Functions` `TypeScript` `Firestore` |
 | **Domoblock** | Fintech/tokenized real-estate investment platform. Nx monorepo, Angular frontend, NestJS microservices (auth, KYC, payments, investments, blockchain, notifications) in hexagonal/DDD architecture over RabbitMQ, deployed on Google Cloud Run. | `NestJS` `Angular` `RabbitMQ` `PostgreSQL` `Firebase` `Google Cloud Run` `Docker` |
 | **MitSoftware — Main website** | Headless CMS backend for the company's main website. | `Strapi` `Node.js` `Docker` |
-| **Notrack** | Real-time tracking backend with JWT auth, WebSocket gateways and transactional email. | `NestJS` `MongoDB` `WebSockets` `JWT` |
+| **Notrack** | File tracking/security platform split into a NestJS core API and several Fastify microservices (file processing, integrations), all on MongoDB, with JWT auth and WebSocket gateways. | `NestJS` `Fastify` `MongoDB` `WebSockets` `JWT` |
 | **Defily** | DeFi/staking platform. Solidity contracts refactored into a modular architecture (core, interfaces, proxies, oracles) for auditability, plus a v2 adding NFT membership, ranking and rewards. | `Solidity` `Hardhat` `DeFi` `NFT` |
 | **Axinfy** | DeFi protocol on Polygon — membership, NFT accounts, staking, treasury and liquidity vaults behind UUPS upgradeable proxies, with automated deployment/verification tooling. | `Solidity` `Hardhat` `OpenZeppelin` `Polygon` |
 
