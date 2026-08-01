@@ -64,6 +64,8 @@ Strength training tracker built as an event-driven microservices system. Angular
 | **Notrack** | Secure file-tracking platform. Fastify + MongoDB main backend with wallet-based auth verified on-chain against a BSC access-control smart contract (Ethers.js), AWS KMS encryption, S3 file storage, OnlyOffice document editing/preview, and Socket.io real-time events; a NestJS service handles admin/chat/auth, plus separate Fastify microservices for file processing. Runs on AWS EC2 behind Nginx. I built the access-control smart contracts myself with Hardhat and Remix IDE. | `NestJS` `Fastify` `MongoDB` `Solidity` `Hardhat` `Remix IDE` `Ethers.js` `AWS EC2` `AWS S3` `AWS KMS` `OnlyOffice` `Nginx` `Socket.io` |
 | **Defily** | DeFi/staking platform. Solidity contracts refactored into a modular architecture (core, interfaces, proxies, oracles) for auditability, plus a v2 adding NFT membership, ranking and rewards. | `Solidity` `Hardhat` `DeFi` `NFT` |
 | **Axinfy** | DeFi protocol on Polygon — membership, NFT accounts, staking, treasury and liquidity vaults behind UUPS upgradeable proxies, with automated deployment/verification tooling. | `Solidity` `Hardhat` `OpenZeppelin` `Polygon` |
+| **LVLX** | NFT platform on BNB Smart Chain — ERC-1155 NFT contracts with a referral system and token staking. | `Solidity` `ERC-1155` `Hardhat` |
+| **Dgallery** | UUPS-upgradeable NFT marketplace with on-chain dividends distribution, deployed and verified on BNB Smart Chain. | `Solidity` `Hardhat` `OpenZeppelin` `NFT Marketplace` |
 
 ---
 
