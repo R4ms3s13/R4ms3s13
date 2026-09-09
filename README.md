@@ -51,6 +51,10 @@ Full-stack / backend-leaning software engineer. I build event-driven and microse
 ![Notion](https://img.shields.io/badge/-Notion-000000?style=flat-square&logo=notion&logoColor=white)
 ![Slack](https://img.shields.io/badge/-Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
 
+**QA**
+![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+
 ---
 
 ### 🚀 Featured projects
@@ -68,8 +72,8 @@ Strength training tracker built as an event-driven microservices system. Angular
 | **WeGo** | Mobility app backend — Cloud Functions handling notifications and transactional messaging (SendGrid, Twilio) on top of Firestore/Realtime Database. | `Firebase` `Cloud Functions` `TypeScript` `Firestore` |
 | **Domoblock** | Fintech/tokenized real-estate investment platform. Nx monorepo, Angular frontend, NestJS microservices (auth, KYC, payments, investments, blockchain, notifications) in hexagonal/DDD architecture over RabbitMQ, deployed on Google Cloud Run. | `NestJS` `Angular` `RabbitMQ` `PostgreSQL` `Firebase` `Google Cloud Run` `Docker` |
 | **MitSoftware — Main website** | Headless CMS backend for the company's main website. | `Strapi` `Node.js` `Docker` |
-| **Notrack** | Secure file-tracking platform. Fastify + MongoDB main backend with wallet-based auth verified on-chain against a BSC access-control smart contract (Ethers.js), AWS KMS encryption, S3 file storage, OnlyOffice document editing/preview, and Socket.io real-time events; a NestJS service handles admin/chat/auth, plus separate Fastify microservices for file processing. Runs on AWS EC2 behind Nginx. I built the access-control smart contracts myself with Hardhat and Remix IDE. | `NestJS` `Fastify` `MongoDB` `Solidity` `Hardhat` `Remix IDE` `Ethers.js` `AWS EC2` `AWS S3` `AWS KMS` `OnlyOffice` `Nginx` `Socket.io` |
-| **Axinfy** (formerly Defily) | DeFi protocol on Polygon — membership, NFT accounts, staking, treasury and liquidity vaults behind UUPS upgradeable proxies, with automated deployment/verification tooling. Includes a standalone Express/MongoDB microservice that pins NFT metadata to IPFS via Pinata for marketplace visualization. | `Solidity` `Hardhat` `OpenZeppelin` `Polygon` `Express` `MongoDB` `IPFS/Pinata` |
+| **Notrack** | Secure file-tracking platform. Next.js/React frontend on top of a Fastify + MongoDB main backend with wallet-based auth verified on-chain against a BSC access-control smart contract (Ethers.js), AWS KMS encryption, S3 file storage, OnlyOffice document editing/preview, and Socket.io real-time events; a NestJS service handles admin/chat/auth, plus separate Fastify microservices for file processing. Runs on AWS EC2 behind Nginx. I built the access-control smart contracts myself with Hardhat and Remix IDE. | `Next.js` `React` `NestJS` `Fastify` `MongoDB` `Solidity` `Hardhat` `Remix IDE` `Ethers.js` `AWS EC2` `AWS S3` `AWS KMS` `OnlyOffice` `Nginx` `Socket.io` |
+| **Axinfy** (formerly Defily) | DeFi protocol on Polygon — membership, NFT accounts, staking, treasury and liquidity vaults behind UUPS upgradeable proxies, with automated deployment/verification tooling. Next.js/React dapp frontend for wallet connection and vault management. Includes a standalone Express/MongoDB microservice that pins NFT metadata to IPFS via Pinata for marketplace visualization. | `Next.js` `React` `Solidity` `Hardhat` `OpenZeppelin` `Polygon` `Express` `MongoDB` `IPFS/Pinata` |
 | **LVLX** | NFT platform on BNB Smart Chain — ERC-1155 NFT contracts with a referral system and token staking. | `Solidity` `ERC-1155` `Hardhat` |
 | **Dgallery** | UUPS-upgradeable NFT marketplace with on-chain dividends distribution, deployed and verified on BNB Smart Chain. | `Solidity` `Hardhat` `OpenZeppelin` `NFT Marketplace` |
 
