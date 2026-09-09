@@ -81,4 +81,4 @@ Strength training tracker built as an event-driven microservices system. Angular
 
 ### 📫 Reach me
 
-[Portfolio](https://portfolio-one-kohl-84.vercel.app/) · [GitHub](https://github.com/R4ms3s13) · [LinkedIn](https://www.linkedin.com/in/ramses-medina-85421a22a/)
+[Portfolio](https://ramses-medina.vercel.app/) · [GitHub](https://github.com/R4ms3s13) · [LinkedIn](https://www.linkedin.com/in/ramses-medina-85421a22a/)
